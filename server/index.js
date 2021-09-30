@@ -26,7 +26,7 @@ io.on('connection' , function (socket){
 
     socket.on('send-message', function(data){
 
-        console.log("entraaa")
+        console.log("El cliente se conecta al servidor")
 
         myMessages.push(data)
 
